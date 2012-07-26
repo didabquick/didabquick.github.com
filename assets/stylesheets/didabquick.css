@@ -1,0 +1,55 @@
+body {
+  background-color: #c85367;
+  font-family: Batang;
+  overflow: hidden;
+}
+
+p, h1, h2, h3 { font-weight: 100; line-height: .1em; }
+h1 { font-size: 300%; }
+h2 { font-size: 240%; }
+h3 { font-size: 140%; }
+a { text-decoration: none; color: inherit; }
+
+#container {
+  position: absolute;
+  margin-top: 3.5em;
+  left: 50%;
+}
+
+#content {
+  background: url(../images/bg_main.png);
+  position: absolute;
+  left: -400px;
+  width: 800px;
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  position: absolute;
+  text-align: center;
+  left: 225px;
+  top: 40px;
+  margin: 0px; padding: 0px;
+}
+
+#navigation {
+  position: absolute;
+  padding: 0px;
+  top: 160px;
+  width: 100%;
+}
+#navigation ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 4.5em;
+  margin-right: 7.7em;
+  font-size: 140%;
+}
+
+.bquick {
+  color: #c85367;
+}
