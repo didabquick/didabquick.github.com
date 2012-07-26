@@ -1,27 +1,30 @@
 body {
-  background-color: #c85367;
+  background-color: #f2f3e5;
   font-family: Batang;
-  overflow: hidden;
 }
 
-p, h1, h2, h3 { font-weight: 100; line-height: .1em; }
+h1, h2, h3 { font-weight: 100; line-height: .1em; }
 h1 { font-size: 300%; }
 h2 { font-size: 240%; }
 h3 { font-size: 140%; }
 a { text-decoration: none; color: inherit; }
 
+.bquick {
+  color: #c85367;
+}
+
 #container {
   position: absolute;
-  margin-top: 3.5em;
+  margin-top: 2em;
   left: 50%;
 }
 
 #content {
   background: url(../images/bg_main.png);
   position: absolute;
-  left: -400px;
-  width: 800px;
-  height: 600px;
+  left: -478px;
+  width: 956px;
+  height: 748px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,25 +34,48 @@ a { text-decoration: none; color: inherit; }
 #title {
   position: absolute;
   text-align: center;
-  left: 225px;
-  top: 40px;
+  left: 325px;
+  top: 75px;
   margin: 0px; padding: 0px;
 }
 
 #navigation {
   position: absolute;
   padding: 0px;
-  top: 160px;
+  top: 200px;
   width: 100%;
 }
 #navigation ul li {
   list-style-type: none;
   display: inline;
-  margin-left: 4.5em;
-  margin-right: 7.7em;
+  margin-left: 7em;
+  margin-right: 8.5em;
   font-size: 140%;
 }
 
-.bquick {
-  color: #c85367;
+#biography {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  width: 850px;
+  background-color: rgba(242, 243, 229, .6);
+  padding: 1em;
+  text-align: center;
 }
+
+#gallery {
+  position: absolute;
+  text-align: center;
+  top: 245px;
+  left: 70px;
+  width: 800px;
+}
+#gallery img { margin: 10px; }
+#gallery img.photo1 { width: 241px; height: 192px; }
+#gallery img.photo2 { width: 143px; height: 182px; }
+#gallery img.photo3 { width: 162px; height: 216px; }
+#gallery img.photo4 { width: 110px; height: 223px; }
+#gallery img.photo5 { width: 139px; height: 187px; }
+#gallery img.photo6 { width: 150px; height: 124px; }
+#gallery img.photo7 { width: 150px; height: 225px; }
+#gallery img.photo8 { width: 120px; height: 160px; }
